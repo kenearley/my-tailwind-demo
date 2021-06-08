@@ -18,4 +18,5 @@ jobs:
       - run: node --version
       - run: npm --version
       - run: yarn --version
+      - run: yarn
       - run : yarn test
