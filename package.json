@@ -6,13 +6,15 @@
   "scripts": {
     "build": "tailwindcss build src/styles/main.css -o public/main.css",
     "build:prod": "NODE_ENV=production tailwindcss build src/styles/main.css -o public/main.css",
-    "start": "serve ./public"
+    "start": "serve ./public",
+    "test": "jest"
   },
   "dependencies": {
     "tailwindcss": "^2.1.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.5",
+    "jest": "^27.0.4",
     "postcss": "^8.2.15",
     "server": "^1.0.33"
   }
